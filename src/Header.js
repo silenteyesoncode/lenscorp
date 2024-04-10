@@ -7,7 +7,8 @@ export function Header() {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: 16
+    paddingHorizontal: 16,
+    paddingBottom: 5,
   }}>
     <Image
       source={require('../assets/indainRailway.png')} // Specify the path to your image
