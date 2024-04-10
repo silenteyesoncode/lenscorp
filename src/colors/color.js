@@ -37,7 +37,7 @@ export default {
   themePrimaryTrans: '#6528d8e6',
 
   themePrimaryDim: 'rgb(101, 40, 216)',
-  themePrimaryHash: '#6528d8',
+  themePrimaryHash: '#07386c',
   themePrimaryLight: 'rgba(101, 40, 216,0.5)',
   themePrimary75: 'rgba(101, 40, 216,0.75)',
   themePrimaryFaded: 'rgba(101, 40, 216,0.3)',

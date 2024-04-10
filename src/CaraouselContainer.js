@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Image, Dimensions } from 'react-native';
 import Carousel, { Pagination } from 'react-native-snap-carousel';
 import { styles } from './styles';
-
+import colors from './colors/color';
 export function CaraouselContainer(setActiveSlide, activeSlide) {
 
 
@@ -25,7 +25,7 @@ export function CaraouselContainer(setActiveSlide, activeSlide) {
   return <View style={{
     height: '45%',
     paddingTop: '5%',
-    backgroundColor: "#07386c"
+    backgroundColor: colors.themePrimaryHash
   }}>
     <Carousel
       data={data}

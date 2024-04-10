@@ -39,7 +39,10 @@ export const styles = StyleSheet.create({
   inactiveDotStyle: {
     borderColor: 'rgb(101, 40, 216)',
     backgroundColor: '#fff',
-    
     // Define styles for inactive dots
   },
+
+  text2: {
+    fontSize: 16
+  }
 });
