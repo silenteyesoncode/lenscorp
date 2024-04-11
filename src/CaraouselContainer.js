@@ -23,7 +23,7 @@ export function CaraouselContainer(setActiveSlide, activeSlide) {
 
 
   return <View style={{
-    height: '45%',
+    // height: '25%',
     paddingTop: '5%',
     backgroundColor: colors.themePrimaryHash
   }}>

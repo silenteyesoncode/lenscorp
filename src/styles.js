@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
   },
   slide: {
     width:"100%", // Adjust the width of each item
-    height: "100%", // Adjust the height of each item
+    height:350, // Adjust the height of each item
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -41,8 +41,22 @@ export const styles = StyleSheet.create({
     backgroundColor: '#fff',
     // Define styles for inactive dots
   },
+  imagebg:{
+    paddingVertical: 10,
+    paddingHorizontal: 22,
+  },
 
   text2: {
     fontSize: 16
+  },
+  text3: {
+    fontSize: 16,
+    color: '#fff',
+    paddingVertical: 5
+  },
+  textHead: {
+    fontSize:20,
+    color: '#fff',
+    fontWeight: 'bold'
   }
 });
